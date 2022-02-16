@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "BrowserAction sample",
+    "version": "0.0.1",
+    "description": "BrowserAction sample",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": []
+}
